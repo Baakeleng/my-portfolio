@@ -1,0 +1,46 @@
+:root{
+--bg-color:hsl(0, 0%, 0%);
+--text1:hsl(0, 0%, 100%);
+--purple:hsl(300, 100%, 25%);
+--gray:hsl(0, 0%, 50%);
+--fs-18:1.125rem;
+--fs-88:5.5rem;
+--fs-72:4.5rem;
+--fs-40:2.5rem;
+--fs-48:3rem;
+--fs-32:2rem;
+--fs-24:1.5rem;
+--con:69.35rem;
+
+}
+
+html{
+box-sizing: border-box;
+font-size: 100%;
+
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+  
+}
+
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    background-color:var(--bg-color);
+    color:var(--text1);
+    font-size: var(--fs-body);
+    line-height: 1.56;
+ 
+}
+.wrapper{
+    width:calc(100% - 2rem;
+    max-width:var(--con);
+    margin-inline:auto;
+
+}
+@media(min-width:37.5rem){
+    .wrapper{
+        width:calc(100% - 3.75rem);
+    }    
+}
